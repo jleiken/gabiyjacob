@@ -49,7 +49,6 @@ header#hero h1 {
 	header#hero h1 {
 		transition: font-size 0.3s ease;
 	}
-	
 }
 
 header#hero.collapsed h1 {
