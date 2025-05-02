@@ -43,7 +43,13 @@ header#hero h1 {
 	font-family: 'Imperial Script', cursive;
 	font-size: 64px;
 	margin: 0;
-	transition: font-size 0.3s ease;
+}
+
+@media screen and (min-width: 800px) {
+	header#hero h1 {
+		transition: font-size 0.3s ease;
+	}
+	
 }
 
 header#hero.collapsed h1 {
@@ -86,7 +92,6 @@ header#hero.collapsed .wave-divider {
 /* Navigation */
 
 .nav {
-	transition: all 0.3s ease;
 	padding: 10px 0;
 }
 
@@ -111,7 +116,6 @@ header#hero.collapsed .wave-divider {
 	text-decoration: none;
 	color: var(--background-color);
 	font-weight: 800;
-	transition: color 0.3s;
 }
 
 /* Main Body */
@@ -119,7 +123,7 @@ header#hero.collapsed .wave-divider {
 .top-image {
 	width: 80%;
 	height: auto;
-	padding: 50px 50px 0 50px;
+	padding-top: 50px;
 	display: block;
 	margin-inline: auto;
 }
@@ -192,7 +196,7 @@ footer {
 
 	background-color: var(--hunter-green);
 	color: var(--background-color);
-	padding: 20px;
+	padding: 10px 0;
 	font-size: 14px;
 
 	box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
