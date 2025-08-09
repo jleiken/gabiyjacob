@@ -10,9 +10,9 @@ window.addEventListener("load", () => {
 	<nav id="mainNav" class="nav">
 		<ul>
 			<li><a href="index.html">Home<br>Inicio</a></li>
-			<li><a href="details.html">Details<br>Detalles</a></li>
 			<li><a href="schedule.html">Schedule<br>Horario</a></li>
-			<li><a href="faqs.html">FAQs<br>Preguntas</a></li>
+			<li><a href="travel.html">Travel Details<br>Detalles de Viajes</a></li>
+			<li><a href="colombia.html">Visit Colombia<br>Visitar Colombia</a></li>
 		</ul>
 	</nav>
 
