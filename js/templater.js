@@ -4,7 +4,7 @@ window.addEventListener("load", () => {
 	const header = document.getElementById("hero");
 	header.innerHTML = `
 	<h1>Gabi y Jacob</h1>
-	<p>Are Getting Married! ~ Se Están Casando!</p>
+	<p>Are Getting Married! ~ Se Casan!</p>
 	<p>July 4, 2026</p>
 
 	<nav id="mainNav" class="nav">
